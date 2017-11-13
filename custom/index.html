@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TimelineJS Example</title>
+    <meta charset="utf-8">
+    <meta name="description" content="TimelineJS Embed">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- CSS-->
+    <link rel="stylesheet" href="css/timeline.css?v1">
+    <link rel="stylesheet" href="css/custom.css">
+    <!--FONT-->
+    <!--link rel="stylesheet" href="css/fonts/font.default.css?v1"-->
+    <!-- Style-->
+    <style>
+      html, body {
+      	height:100%;
+      	width:100%;
+      	padding: 0px;
+      	margin: 0px;
+      }
+      .tl-timeline {
+      	
+      }
+      
+    </style>
+    <!-- HTML5 shim, for IE6-8 support of HTML elements-->
+    <!--if lt IE 9
+    script(src='https://html5shim.googlecode.com/svn/trunk/html5.js')
+    
+    -->
+  </head>
+  <body>
+    <img src="img/case-foundation-logo.svg" id="img_logo">
+    <div id="timeline"></div>
+    <!-- JavaScript-->
+
+    <div id="group_section">
+      <div id="group_content">
+        <img src="img/metrics_landscape.png">
+        <h3>MATRICS LANDSCAPE TAKES SHAPE</h3>
+        <p>Standards and metrics are critical to understanding success in the Impact Investing sector. Over the last ten years, significant progress has been made by multiple organizations to identify and put into practice quality social and financial performance measures and benchmarks.</p>
+      </div>
+    </div>
+
+    <script src="js/library/jquery-1.12.4.js"></script>
+    <script src="js/library/jquery-ui.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/custom.js"></script>
+    
+    <script>
+      var timeline = new TL.Timeline('timeline', 'json/data.json', {
+      	theme_color: "#288EC3",
+      	ga_property_id: "UA-27829802-4"
+      });
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109525282-1"></script>
+    <script>
+      ga('send', {
+  hitType: 'event',
+  eventCategory: 'Videos',
+  eventAction: 'play',
+  eventLabel: 'Fall Campaign'
+});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,824 @@
+{
+    "scale": "human",
+	"title": {
+		        "media": {
+		            "caption": "",
+		            "credit": "",
+		            "url": "img/logo.png",
+		            "thumb": 	""
+		        },
+                "background": {
+                    "url": "img/shutterstock-290597033.jpg"
+                },
+                "group": "",
+	            "text": {
+	                "headline": "",
+	                "text": "In the last 10 years, the Impact Investing sector has grown and expanded significantly. The Case Foundation is dedicated to catalyzing this movement and has witnessed a wide range of activity that has contributed to growth. In celebration, we've created a timeline of pivotal milestones."
+	            }
+	    },
+
+    "events": [
+        {
+            "start_date": {
+                "year":         "2009",
+                "month":        "9",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Networks Activate",
+            "gcolor" : "#86aa52",
+            "background": {
+                    "color" : "#91b85d"
+            },
+            "text": {
+                "headline": "Launch of the Global Impact Investing Network",
+                "text": "The <a href=\"https://thegiin.org/\">Global Impact Investing Network</a> (GIIN) launches to help formalize impact measurement research and data-sharing.<br><br><p style=\"font-size:12px\"><a href=\"https://thegiin.org/assets/GIIN%20Launch%202009.pdf\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2010",
+                "month":        "6",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Networks Activate",
+            "gcolor" : "#86aa52",
+            "background": {
+                    "url" : "https://casefoundation.org/wp-content/uploads/2017/09/Stocksy_txpad798d9bioF000_Original_318270.jpg"
+            },
+            "text": {
+                "headline": "The Giving Pledge is Formed",
+                "text": "Bill Gates and Warren Buffet formally announce the <a href=\"https://givingpledge.org/Home.aspx\">The Giving Pledge</a>, a global movement for wealthy individuals to contribute the majority of their wealth to philanthropic causes during their lifetimes. The community of pleders commit to multiple areas and sectors of interest, including a desire to learn more about Impact Investing."
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2010",
+                "month":        "9",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "New Products Hit the Market",
+            "gcolor" : "#44a8c0",
+            "background": {
+                    "color" : "#399fb6"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?time_continue=134&v=fi8CYv9Dcr0"
+            },
+            "text": {
+                "headline": "The World's First Social Impact Bond",
+                "text": "The first Social Impact Bond (SIB) launches to reduce reoffending rates among short-sentenced offenders in the UK.<br><br><p style=\"font-size:12px\"><a href=\"http://www.socialfinance.org.uk/wp-content/uploads/2017/07/Final-press-release-PB-July-2017.pdf\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2011",
+                "month":        "3",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Metrics Landscape Begins To Change",
+            "gcolor" : "#d32e58",
+            "background": {
+                    "color" : "#c42e54"
+            },
+            "text": {
+                "headline": "The GIIN Launches ImpactBase",
+                "text": "The GIIN launches <a href=\"https://www.impactbase.org\">ImpactBase</a>, the global online directory of impact investment vehicles. Today, more than 1,000 accredited impact investors subscribe to search nearly 300 impact investment funds and vehicles.<br><br><p style=\"font-size:12px\"><a href=\"https://thegiin.org/knowledge/publication/impactbase-snapshot-an-analysis-of-300-impact-investing-funds\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2011",
+                "month":        "9",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Metrics Landscape Begins To Change",
+            "gcolor" : "#d32e58",
+            "background": {
+                    "url" : "https://casefoundation.org/wp-content/uploads/2017/09/pittypittfinal.jpg"
+            },
+            "media": {
+                "url": ""
+            },
+            "text": {
+                "headline": "B Lab introduces GIIRS",
+                "text": "B Lab launches the <a href=\"http://b-analytics.net/giirs-funds\">Global Impact Investing Rating System</a> (GIIRS), providing investors with a comprehensive, comparable and third party verified assessment of companies’ and funds’ social and environmental impact.<br><br><p style=\"font-size:12px\"><a href=\"http://www.calvertfoundation.org/press/releases/402-giirs-rating-system-launches\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2012",
+                "month":        "4",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Foundations Pave the Way",
+            "gcolor" : "#e57742",
+            "background": {
+                    "color" : "#e96d31"
+            },
+            "media": {
+                "url": "http://i.stack.imgur.com/yZlqh.png"
+            },
+            "text": {
+                "headline": "The Heron Foundation commits $270M",
+                "text": "<a href=\"http://www.heron.org/\">The Heron Foundation</a> sets an ambitious goal of moving its entire $270M endowment into impact investments by fiscal year 2017. The Foundation will look for investments that support their mission of evelating people and communities out of poverty.<br><br><p style=\"font-size:12px\"><a href=\"https://www.forbes.com/sites/annefield/2017/03/30/mission-accomplished-how-the-heron-foundation-went-all-in/#4738c82b4d17\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2013",
+                "month":        "9",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Metrics Landscape Begins To Change",
+            "gcolor" : "#d32e58",
+            "background": {
+                    "color" : "#ca2e56"
+            },
+            "media": {
+                "url": "https://www.youtube.com/watch?v=nvZZkmA_uck"
+            },
+            "text": {
+                "headline": "The B Analytics Partnership Arrives",
+                "text": "The GIIN and B Lab announce a partnership to create <a href=\"http://b-analytics.net/\">B Analytics</a>, a customizable data platform to help investors collect, benchmark and report on impact."
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2014",
+                "month":        "3",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "World Class Investors Come to the Table",
+            "gcolor" : "#8594ef",
+            "background": {
+                    "color" : "#7d8ceb"
+            },
+            "media": {
+                "url": "https://casefoundation.org/wp-content/uploads/2012/10/civilRightsIssueOfOurTime_thumbnail.jpg"
+            },
+            "text": {
+                "headline": "VC Meets Impact: An Investment in AltSchool",
+                "text": "Andreeseen Horrowitz leads an investment round in <a href=\"https://www.altschool.com\">AltSchool</a>. AltSchool aims to reimagine education by creating access to first-rate and personalized programming for students. AltSchool became a B Corporation in October 2014.<br><br><p style=\"font-size:12px\"><a href=\"https://techcrunch.com/2014/03/18/former-googlers-altschool-raises-33m-from-founders-fund-and-a16z-to-reimagine-primary-education/\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2014",
+                "month":        "6",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "World Class Investors Come to the Table",
+            "gcolor" : "#8594ef",
+            "media": {
+                "url": ""
+            },
+            "background" : {
+                "url" : "https://casefoundation.org/wp-content/uploads/2017/09/pexels-photo-129112.jpg"
+            },
+            "text": {
+                "headline": "The White House Calls for \"All Hands on Deck\"",
+                "text": "President Obama convenes an “all hands on deck” effort to bring together 20 private-sector investors at the White House, who announced $1.5B new investment commitments to intentionally generate sound financial return as well as measurable social or environmental impact.<br><br><p style=\"font-size:12px\"><a href=\"https://obamawhitehouse.archives.gov/blog/2014/06/25/executive-actions-accelerate-impact-investing-create-jobs-and-strengthen-communities\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2014",
+                "month":        "9",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Foundations Pave the Way",
+            "gcolor" : "#e57742",
+            "media": {
+                "url": ""
+            },
+            "background": {
+                    "color" : "#e96b2e"
+            },
+            "text": {
+                "headline": "RBF commits to divest",
+                "text": "The <a href=\"https://www.rbf.org/\">Rockefeller Brothers Fund</a> (RBF) makes a public statement to begin divesting from oil, gas, coal and tar sands assets across an $850M portfolio.<br><br><p style=\"font-size:12px\"><a href=\"https://www.rbf.org/about/divestment\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2014",
+                "month":        "10",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Metrics Landscape Begins To Change",
+            "gcolor" : "#d32e58",
+            "background": {
+                    "color" : "#c32e54"
+            },
+            "media": {
+                "url": "https://casefoundation.org/wp-content/uploads/2014/11/ShortGuide_Thumb.jpg"
+            },
+            "text": {
+                "headline": "A Short Guide to Impact Investing",
+                "text": "The Case Foundation launches <a href=\"http://casefoundation.org/wp-content/uploads/2014/11/ShortGuideToImpactInvesting-2014.pdf\">A Short Guide to Impact Investing</a>, a primer for new investors or organizations looking to jump in."
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2014",
+                "month":        "11",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "World Class Investors Come to the Table",
+            "gcolor" : "#8594ef",
+            "background": {
+                    "color" : "#7b8ae9"
+            },
+            "text": {
+                "headline": "Bill Gates invests in Unitus Seed Fund LP",
+                "text": "Unitus Seed Fund aims to invest in startups in the agricultural, education, energy, healthcare, e-commerce, retail and water sectors in India."
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2014",
+                "month":        "11",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Networks Activate",
+            "gcolor" : "#86aa52",
+            "background": {
+                    "color" : "#91b85d"
+            },
+            "media" : {
+                "url" : "https://www.youtube.com/watch?time_continue=2&v=VcNT1gdkZaY"
+            },
+            "text": {
+                "headline": "The ImPact is Formed",
+                "text": "The Case Foundation provides operational support to the newly formed organization,<a href=\"http://theimpact.org\">The ImPact</a>, that is a network of families joined together by a pact to make more impact investments.<br><br><p style=\"font-size:12px\"><a href=\"http://theimpact.org/#the-pact\"><em>Source</em></a></p>"
+            }
+        }, 
+        {
+            "start_date": {
+                "year":         "2014",
+                "month":        "12",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Impact Companies Make It Big",
+            "gcolor" : "#46abef",
+            "background": {
+                    "color" : "#36a0ea"
+            },
+            "text": {
+                "headline": "Natura: The First Publicly-Traded B Corp",
+                "text": "<a href=\"http://www.natura.com.br\">Natura</a>, a Brazilian cosmetics company, becomes the first publicly-traded company to become B Corp certified</a>.<br><br><p style=\"font-size:12px\"><a href=\"https://www.fastcompany.com/3040158/a-public-company-has-finally-become-a-b-corp\"><em>Source</em></a></p>"
+            }
+        },
+
+        {
+            "start_date": {
+                "year":         "2014",
+                "month":        "12",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Metrics Landscape Begins To Change",
+            "gcolor" : "#d32e58",
+            "background": {
+                    "color" : "#c42f55"
+            },
+            "media" : {
+                "url" : "https://casefoundation.org/wp-content/uploads/2016/05/B-Corp-MWM-Thumbnail.jpg"
+            },
+            "text": {
+                "headline": "Measure What Matters Initiative is Launched",
+                "text": "The Case Foundation supports B Lab’s <a href=\"http://b-analytics.net/articles/measure-what-matters-initiative-launches\">Measure What Matters Initiative</a>, a field-wide effort to engage businesses in measuring and managing their social and environmental impact by leveraging the B Impact Assessment and B Analytics platforms.<br><br><p style=\"font-size:12px\"><a href=\"https://www.forbes.com/sites/annefield/2015/03/31/case-foundation-b-lab-team-up-to-make-measuring-impact-more-mainstream/#5d6fe466296c\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2015",
+                "month":        "2",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Institutions Pick Up the Baton",
+            "gcolor" : "#e3a14a",
+            "media" : {
+                "url" : ""
+            },
+            "background" : {
+                "url" : "https://casefoundation.org/wp-content/uploads/2015/04/Equilibrium_hero.jpg"
+            },
+            "text": {
+                "headline": "BlackRock Launches its' Impact Platform",
+                "text": "BlackRock launches <a href=\"https://www.blackrock.com/investing/investment-ideas/sustainable-investing\">BlackRock Impact</a>, a business unit dedicated to Impact Investing, and creates an investment platform to feature new impact-aligned projects. The platform currently manages $200B of assets across impact investing, environmental, social and governance (ESG) portfolios and screened portfolios.<br><br><p style=\"font-size:12px\"><a href=\"http://www.reuters.com/article/us-blackrock-impact-exclusive-idUSKBN0LD18W20150209\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2015",
+                "month":        "3",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Networks Activate",
+            "gcolor" : "#86aa52",
+            "media" : {
+                "url" : "https://www.youtube.com/watch?v=9689NcQtJSw"
+            },
+            "background": {
+                    "color" : "#91b85d"
+            },
+            "text": {
+                "headline": "The Milken Institute Integrates Impact Investing",
+                "text": "The Case Foundation provides the <a href=\"http://www.milkeninstitute.org/\">Milken Institute</a> with a grant to help build out the Impact Investing track at the 2015 conference, creating a new forum for Milken attendees to engage</a>.<br><br><p style=\"font-size:12px\"><a href=\"http://www.milkeninstitute.org/events/conferences/global-conference/global-conference-2015/panel-detail/5521\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2015",
+                "month":        "6",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "World Class Investors Come to the Table",
+            "gcolor" : "#8594ef",
+            "media" : {
+                "url" : "https://soundcloud.com/impact-voices/nancy-pfund-filthy-rich"
+            },
+            "background": {
+                    "color" : "#7a89e8"
+            },
+            "text": {
+                "headline": "DBL Partners invests $400M",
+                "text": "DBL Partners III successfully closes a $400M impact fund. Target investments include sustainable energy, products and services, digital media, healthcare and IT.<br><br><p style=\"font-size:12px\"><a href=\"https://www.forbes.com/sites/annefield/2015/06/30/impact-investing-gets-bigger-with-new-400m-venture-fund/#3952cb78a867\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2015",
+                "month":        "6",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Metrics Landscape Begins To Change",
+            "gcolor" : "#d32e58",
+            "media" : {
+                "url" : "https://thegiin.org/assets/image-cache/Benchmark%20Cover.320d7675.jpg"
+            },
+            "background": {
+                    "color" : "#c52f55"
+            },
+            "text": {
+                "headline": "Introducing the Impact Investing Benchmark",
+                "text": "Cambridge Associates and the GIIN launch the Impact Investing Benchmark, a comprehensive analysis of the financial performance of market rate private equity and venture capital impact fund.<br><br><p style=\"font-size:12px\"><a href=\"https://thegiin.org/assets/documents/pub/Introducing_the_Impact_Investing_Benchmark.pdf\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2015",
+                "month":        "7",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Academic Institutions Join the Ranks",
+            "gcolor" : "#38c49f",
+            "media" : {
+                "url" : ""
+            },
+            "background": {
+                    "color" : "#34bf98"
+            },
+            "text": {
+                "headline": "Goldman Sachs acquires Imprint Capital",
+                "text": "Goldman Sachs Asset Management announces its acquisition of Imprint Capital, an impact investing advisory firm.<br><br><p style=\"font-size:12px\"><a href=\"http://www.businesswire.com/news/home/20150713005948/en\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2015",
+                "month":        "9",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Foundations Pave the Way",
+            "gcolor" : "#e57742",
+            "media" : {
+                "url" : "https://casefoundation.org/wp-content/uploads/2017/09/city-lights-night-skyline.jpg"
+            },
+            "background": {
+                    "color" : "#e66929"
+            },
+            "text": {
+                "headline": "Kresge Foundation Board Commits $350M",
+                "text": "The <a href=\"http://kresge.org/\">Kresge Foundation</a>'s Board of Trustees approves a plan to invest $350M of their assets into impact by 2020. They pledge to make both program-related investments and mission-related investments in enterprises and funds that align with their programmatic objectives. This represents 10 percent of their corpus.<br><br><p style=\"font-size:12px\"><a href=\"http://kresge.org/news/kresge-board-commits-350-million-social-investments\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2015",
+                "month":        "10",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Foundations Pave the Way",
+            "gcolor" : "#e57742",
+            "media" : {
+                "url" : ""
+            },
+            "background" : {
+                "url" : "https://casefoundation.org/wp-content/uploads/2014/10/ImpactInvesting_BlogHero.jpg"
+            },
+            "text": {
+                "headline": "US Department of Labor Picks up the Baton",
+                "text": "The USDOL passes three regulatory guidelines that help clarify that ERISA-governed pension funds on can integrate environmental, social and governance (ESG) factors into their decision making. The clarifications also highlighted innovative investment mechanisms, like program-related investments and mission-related investments.<br><p style=\"font-size:12px\"><a href=\"http://webapps.dol.gov/FederalRegister/PdfDisplay.aspx?DocId=28547\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2015",
+                "month":        "10",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Academic Institutions Join the Ranks",
+            "gcolor" : "#38c49f",
+            "media" : {
+                "url" : "https://casefoundation.org/wp-content/uploads/2014/11/greatexp.jpg"
+            },
+            "background": {
+                    "color" : "#33be97"
+            },
+            "text": {
+                "headline": "Wharton Focuses on Performance",
+                "text": "The Wharton School's <a href=\"https://socialimpact.wharton.upenn.edu/impact-investing/\">Wharton Social Impact Investing Initiative</a> announced the release of a <a href=\"https://socialimpact.wharton.upenn.edu/wp-content/uploads/2016/09/Great-Expectations-Mission-Preservation-and-Financial-Performance-in-Impact-Investing.pdf\">study</a> that explores the widespread assumption that impact investing private equity funds cannot achieve market-rate financial performance and finds that in certain market segments—investors might not need to expect lower returns as a tradeoff for social impact.<br><br><p style=\"font-size:12px\"><a href=\"https://socialimpact.wharton.upenn.edu/general-news/press-release-new-wharton-research-shows-doing-well-while-doing-good-is-viable-investment-strategy-investors-seeking-social-impact-can-receive-comparable-returns/\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2015",
+                "month":        "12",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Families Take the Plunge",
+            "gcolor" : "#85b5ff",
+            "media" : {
+                "url" : "https://vimeo.com/224703815"
+            },
+            "background": {
+                    "color" : "#5b9bfd"
+            },
+            "text": {
+                "headline": "Chan Zuckerberg Initiative Goes Big on Impact",
+                "text": "Mark Zuckerberg and Pricilla Chan pledge $45B of their personal wealth to social causes. The family proposes <a href=\"https://chanzuckerberg.com/\">creating an LLC</a>, and directing their investments to explore impact investments in service of their mission.<br><br><p style=\"font-size:12px\"><a href=\"https://www.philanthropy.com/article/ZuckerbergChan-Pledge/234412\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2016",
+                "month":        "8",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Institutions Pick Up the Baton",
+            "gcolor" : "#e3a14a",
+            "media" : {
+                "url" : ""
+            },
+            "background": {
+                    "color" : "#dc9c44"
+            },
+            "text": {
+                "headline": "Bain Capital debuts Double Impact Fund",
+                "text": "Bain Capital debuts their <a href=\"https://www.baincapitaldoubleimpact.com/\">Double Impact Fund</a>, intended to invest in companies across sustainability, health and wellness, and community building.<br><br><p style=\"font-size:12px\"><a href=\"https://www.bostonglobe.com/business/2016/08/03/bain-capital-raises-billion-debt-fund/EdkHf9LzpmkIuhONy9WSiO/story.html\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2016",
+                "month":        "8",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Institutions Pick Up the Baton",
+            "gcolor" : "#e3a14a",
+            "media" : {
+                "url" : ""
+            },
+            "background" : {
+                "url" : "https://casefoundation.org/wp-content/uploads/2015/06/impinvClimate_hero.jpg"
+            },
+            "text": {
+                "headline": "CalPERS adopts ESG 5-Year Strategic Plan",
+                "text": "The California Public Employees Retirement system (CalPERS) officially adopts the Environmental, Social and Governance 5-Year Strategic Plan. The plan allows shareholders to wield their influence when they believe investments are not being made in alignment with a commitment to a clean environment, sustainable energy resources and open governance.<br><br><p style=\"font-size:12px\"><a href=\"https://www.comstocksmag.com/web-only/calpers-throws-its-weight-around-make-world-better-place\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2016",
+                "month":        "12",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Institutions Pick Up the Baton",
+            "gcolor" : "#e3a14a",
+            "media" : {
+                "url" : ""
+            },
+            "background": {
+                    "color" : "#dc9c44"
+            },
+            "text": {
+                "headline": "TPG Growth Creates The Rise Fund",
+                "text": "TPG Growth, the global growth equity and middle-market buyout platform of private equity firm TPG, announced the creation of</a> <a href=\"http://therisefund.com/\">The Rise Fund</a>, a global impact fund that will invest in businesses purposefully generating social, environmental or economic good.<br><br><p style=\"font-size:12px\"><a href=\"http://therisefund.com/pdf/Impact-Press-Release.pdf\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2017",
+                "month":        "2",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Institutions Pick Up the Baton",
+            "gcolor" : "#e3a14a",
+            "media" : {
+                "url" : ""
+            },
+            "background": {
+                    "color" : "#dc9c44"
+            },
+            "text": {
+                "headline": "BlackRock CEO addresses shareholders on ESG",
+                "text": "In his annual letter CEO Larry Fink declares their emphasis on companies that are cognizant of social, environmental, and governance factors that contribute to long-term growth.<br><br><p style=\"font-size:12px\"><a href=\"https://www.blackrock.com/corporate/en-us/investor-relations/larry-fink-ceo-letter\"><em>Source</em></a>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2017",
+                "month":        "4",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Foundations Pave the Way",
+            "gcolor" : "#e57742",
+            "media" : {
+                "url" : "https://www.youtube.com/watch?v=qOcBoNjZ_Us"
+            },
+            "background": {
+                    "color" : "#e86a2d"
+            },
+            "text": {
+                "headline": "Ford Foundation commits $1B to impact investments",
+                "text": "The Ford Foundation makes a 10 year commitment to help advance the marketplace for Impact Investing, one of the largest commitments of its kind by a private foundation.<br><br><p style=\"font-size:12px\"><a href=\"https://www.fordfoundation.org/the-latest/news/ford-foundation-commits-1-billion-from-endowment-to-mission-related-investments/\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2017",
+                "month":        "6",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Impact Companies Make It Big",
+            "gcolor" : "#46abef",
+            "media" : {
+                "url" : ""
+            },
+            "background" : {
+                "url" : "https://casefoundation.org/wp-content/uploads/2017/08/Network-Map-JJ-Blog-Hero.jpg"
+            },
+            "text": {
+                "headline": "The Impact Investing Network Map Goes Live",
+                "text": "The Case Foundation launches the Beta version of the <a href=\"https://casefoundation.org/networkmap/\">Impact Investing Network Map</a>, a data-driven visualization of Impact Investing transactions to-date, meant to demonstrate the depth and scope of the ecosystem to-date."
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2017",
+                "month":        "6",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Foundations Pave the Way",
+            "gcolor" : "#e57742",
+            "media" : {
+                "url" : ""
+            },
+            "background": {
+                    "color" : "#e86a2d"
+            },
+            "text": {
+                "headline": "NGS commits $50M to impact investments",
+                "text": "<a href=\"https://www.nationalgeographic.org/\">National Geographic Society</a> commits $50M from its $1.2B endowment to further its commitment to understanding our planet and generating solutions for a healthy, more sustainable future.<br><br><p style=\"font-size:12px\"><a href=\"https://www.nationalgeographic.org/newsroom/national-geographic-society-commits-50-million-of-endowment-to-impact-investments/\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2017",
+                "month":        "7",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "Institutions Pick Up the Baton",
+            "gcolor" : "#e3a14a",
+            "media" : {
+                "url" : ""
+            },
+            "background" : {
+                "url" : "https://casefoundation.org/wp-content/uploads/2017/09/pexels-photo-356269.jpg"
+            },
+            "text": {
+                "headline": "Japan's GPIF allocates 1TR yen to impact investments",
+                "text": "The world’s largest pension fund, Japan's <a href=\"http://www.gpif.go.jp/en/\">Government Pension Investment Fund</a> (GPIF), reports that it has allocated over 1TR yen to socially responsible investments. This is equivalent to $8.9B. <br><br><p style=\"font-size:12px\"><a href=\"http://mobile.reuters.com/article/amp/idUSL3N1JU1BK\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2017",
+                "month":        "7",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "New Products Hit the Market",
+            "gcolor" : "#44a8c0",
+            "media" : {
+                "url" : "https://www.youtube.com/watch?v=h-uGVzVZPKM"
+            },
+            "background": {
+                    "color" : "#369cb3"
+            },
+            "text": {
+                "headline": "Women's Livelihood Bond Goes Big",
+                "text": "The <a href=\"https://iixglobal.com/womens-livelihood-bond/\">Women’s Livelihood Bond</a> is officially listed on the Singapore Stock Exchange, a pilot attempt for the world’s first multi-sector and multi-country gender lens instrument.<br><br><p style=\"font-size:12px\"><a href=\"https://www.dealstreetasia.com/stories/iix-closes-8m-womens-livelihood-bond-sea-seek-listing-sgx-76716/\"><em>Source</em></a></p>"
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2017",
+                "month":        "10",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "group": "New Products Hit the Market",
+            "gcolor" : "#44a8c0",
+            "media" : {
+                "url" : ""
+            },
+            "background" : {
+                "url" : "https://casefoundation.org/wp-content/uploads/2017/04/Earth-Day-II-Blog-Hero.jpg"
+            },
+            "text": {
+                "headline": "Impact Investing Celebrates 10 Years",
+                "text": "As we celebrate 10 years since the formalization of the Impact Investing landscape, we’re optimistic about the road ahead. Some have said the market will surpase $300B by 2020, others say it’s the future of all investing. We believe that it has real potential to change the way we blend profit and purpose. We hope you’ll join us in this journey toward the next 10 years."
+            }
+        }
+    ]
+}
