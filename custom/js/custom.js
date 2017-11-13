@@ -69,11 +69,23 @@ var classCustom 	= function()
 
 		$(document).on("click", ".tl-slidenav-next", function()
 		{
+			ga('send', {
+				hitType: 'event',
+				eventAction: 'click',
+				eventLabel: 'right'
+			});
+
 			main.updateData();
 		});
 
 		$(document).on("click", ".tl-slidenav-previous", function()
 		{
+			ga('send', {
+				hitType: 'event',
+				eventAction: 'click',
+				eventLabel: 'left'
+			});
+
 			main.updateData();
 		});
 
@@ -84,7 +96,27 @@ var classCustom 	= function()
 
 		$(document).on("click", ".tl-menubar-button", function()
 		{
+			var index = $(this).index();
+
+			if(index == 0 || index == 1)
+			{
+				ga('send', {
+					hitType: 'event',
+					eventAction: 'click',
+					eventLabel: 'zoom'
+				});
+			}
+
 			main.updateData();
+		});
+
+		$(document).on("click", ".tl-timenav", function()
+		{
+			ga('send', {
+				hitType: 'event',
+				eventAction: 'click',
+				eventLabel: 'timeline'
+			});
 		});
 
 		$(document).on("click", ".tl-timemarker-content-container", function()
@@ -108,6 +140,21 @@ var classCustom 	= function()
 		var index 	= $(".tl-timemarker-active").index();
 		var color 	= "";
 		var height 	= $(".tl-storyslider").height();
+
+		ga('send', {
+			hitType: 'event',
+			eventAction: 'view',
+			eventLabel: 'page'
+		});
+
+		if($(".tl-timemarker:last-child").hasClass("tl-timemarker-active"))
+		{
+			ga('send', {
+				hitType: 'event',
+				eventAction: 'view',
+				eventLabel: 'last'
+			});
+		}
 
 		if(index != -1)
 		{
