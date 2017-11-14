@@ -7,5 +7,6 @@ itsdangerous==0.24
 wsgiref==0.1.2
 Fabric==1.10.0
 pyOpenSSL==0.15.1
+s3-deploy-website==0.2.1
 
 pycrypto==2.6.1
