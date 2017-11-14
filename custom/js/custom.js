@@ -184,7 +184,7 @@ var classCustom 	= function()
 
 				case "Foundations Pave the Way".toUpperCase() :
 					$("#group_content h3").html("Foundations Double Down");
-					$("#group_content p").html("Foundations play a key role in catalyzing growth of the Impact Investing movement.They deploy capital, undewrite risk, support innovation and reinforce the legitimacy of the sector and its ability to deliver both a financial and social return. As more foundations enter this field, we expect to see the ecosystem continue to grow.");
+					$("#group_content p").html("Foundations play a key role in catalyzing growth of the Impact Investing movement. They deploy capital, undewrite risk, support innovation and reinforce the legitimacy of the sector and its ability to deliver both a financial and social return. As more foundations enter this field, we expect to see the ecosystem continue to grow.");
 					$("#group_content img").attr("src", "img/foundations_double.png");
 				break;
 
@@ -202,7 +202,7 @@ var classCustom 	= function()
 
 				case "Institutions Pick Up the Baton".toUpperCase() :
 					$("#group_content h3").html("Institutions Pick Up the Baton");
-					$("#group_content p").html("The involvement of institutional investors and traditional institutions is critical to crowd in the capital needed for Impact Investing to scale. When major financial and corporate actors add Impact Investments to their portfolios or develop products for the sector, capital inflows increase and the size of the market expands.");
+					$("#group_content p").html("The involvement of institutional investors and traditional institutions is critical to crowd in the capital needed for impact investing to scale. When major financial and corporate actors add Impact Investments to their portfolios or develop products for the sector, capital inflows increase and the size of the market expands.");
 					$("#group_content img").attr("src", "img/institutions_pickup.png");
 				break;
 
