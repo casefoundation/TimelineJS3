@@ -35,7 +35,7 @@ var classCustom 	= function()
 			}
 		});
 
-		$(timeline).on("loaded", function()
+		setTimeout(function()
 		{
 			$(".tl-timemarker").each(function()
 			{
@@ -50,9 +50,9 @@ var classCustom 	= function()
 						var rgba = main.hexToRGB(timeline.config.events[i].gcolor, 0.2);
 						var rgb  = main.rgba2rgb({r : 255, g : 255, b : 255}, rgba);
 
-						// $(curr_obj).css({"background" : rgb});
-						// $(curr_obj).data("gcolor", timeline.config.events[i].gcolor);
-						// $(curr_obj).data("bgcolor", rgb);
+						$(curr_obj).css({"background" : rgb});
+						$(curr_obj).data("gcolor", timeline.config.events[i].gcolor);
+						$(curr_obj).data("bgcolor", rgb);
 
 						break;
 					}
@@ -62,11 +62,10 @@ var classCustom 	= function()
 			$(".tl-headline").each(function()
 			{
 				var color = $(this).parents(".tl-timemarker").data("gcolor");
-
 				$(this).parents(".tl-timemarker-content-container").prepend("<div class='color_bar'></div>");
 				$(this).parents(".tl-timemarker-content-container").children(".color_bar").css('background', color);
 			});
-		});
+		},500);
 
 		$(document).on("click", ".tl-slidenav-next", function()
 		{
@@ -301,6 +300,6 @@ function getGColor(item) {
 		case "Families Take the Plunge".toUpperCase() :
 			return '#85b5ff';
 		case "Policy Clears The Way".toUpperCase() :
-			return 'rgb(0,0,0)';
+			return '#A7B7D0';
 	}
 }
