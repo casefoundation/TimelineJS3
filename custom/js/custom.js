@@ -78,6 +78,11 @@ var classCustom 	= function()
 			main.updateData();
 		});
 
+		$(document).on("keyup", function()
+		{
+			main.updateData();
+		});
+
 		$(document).on("click", ".tl-slidenav-previous", function()
 		{
 			ga('send', {
