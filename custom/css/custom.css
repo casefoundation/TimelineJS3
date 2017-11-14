@@ -111,7 +111,7 @@
 #group_section #group_content p
 {
 	font-family: acherus_grotesque;
-    font-size: 16px;
+    font-size: 13px;
     color: #eee;
     font-weight: normal;
     line-height: 1.5;
@@ -189,7 +189,7 @@
   	font-stretch: condensed !important;
 }
 
-.tl-timemarker.tl-timemarker-active .tl-timemarker-line-left, .tl-timemarker.tl-timemarker-active .tl-timemarker-line-right 
+.tl-timemarker.tl-timemarker-active .tl-timemarker-line-left, .tl-timemarker.tl-timemarker-active .tl-timemarker-line-right
 {
 	border-color: #345892;
 	border-width: 2px;
@@ -323,7 +323,7 @@
 	border-color : #ccc !important;
 }
 
-.tl-timeaxis-major .tl-timeaxis-tick-text 
+.tl-timeaxis-major .tl-timeaxis-tick-text
 {
 	font-family: AvenirNextCondensed_Regular;
 	font-size: 12px;
@@ -363,7 +363,7 @@
 	display: none;
 }
 
-.tl-menubar-button:hover 
+.tl-menubar-button:hover
 {
 	background-color: #333 !important;
 }
