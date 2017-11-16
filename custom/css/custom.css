@@ -16,7 +16,7 @@
 .tl-slidenav-previous .tl-slidenav-content-container
 {
 	background : url(../img/arrow_left.png) no-repeat !important;
-	background-position : 15px 0px !important;
+	background-position : center top !important;
 }
 
 .tl-slidenav-previous .tl-slidenav-content-container div
@@ -27,7 +27,8 @@
 .tl-slidenav-next .tl-slidenav-content-container
 {
 	background: url(../img/arrow_right.png) no-repeat !important;
-	background-position: 45px 0px !important;
+	background-position: center top !important;
+	/*background-size: 100% !important;*/
 }
 
 .tl-slidenav-next .tl-slidenav-content-container div
@@ -83,6 +84,52 @@
 	background-color: #FFFFFF;
 }
 
+#group_section.tl-layout-portrait.portrait_mini
+{
+	height: 155px !important;
+}
+
+#group_section.portrait_mini group:first-child
+{
+	width: 135px !important;
+}
+
+#group_section.portrait_mini group:last-child
+{
+	width : calc(100% - 135px) !important;
+}
+
+#group_section.tl-layout-portrait
+{
+	width: 100% !important;
+	height: 275px !important;
+}
+
+#group_section.tl-layout-portrait #group_content
+{
+	width: calc(100% - 50px);
+}
+
+#group_section.tl-layout-portrait #group_content group
+{
+	float: left;
+}
+
+#group_section.tl-layout-portrait #group_content group:first-child
+{
+	width: 250px;
+}
+
+#group_section.tl-layout-portrait #group_content group:last-child
+{
+	width: calc(100% - 250px);
+}
+
+#group_section.tl-layout-portrait p
+{
+	margin-top: 0px;
+}
+
 #group_section #group_content
 {
 	margin-top: 100px;
@@ -111,14 +158,14 @@
 #group_section #group_content p
 {
 	font-family: acherus_grotesque;
-    font-size: 13px;
+    font-size: 16px;
     color: #eee;
     font-weight: normal;
     line-height: 1.5;
     letter-spacing: -0.1px;
 }
 
-.tl-slide-content
+.tl-layout-landscape .tl-slide-content
 {
 	width: calc(100% - 200px) !important;
 }
@@ -189,7 +236,7 @@
   	font-stretch: condensed !important;
 }
 
-.tl-timemarker.tl-timemarker-active .tl-timemarker-line-left, .tl-timemarker.tl-timemarker-active .tl-timemarker-line-right
+.tl-timemarker.tl-timemarker-active .tl-timemarker-line-left, .tl-timemarker.tl-timemarker-active .tl-timemarker-line-right 
 {
 	border-color: #345892;
 	border-width: 2px;
@@ -206,6 +253,7 @@
 {
 	border: 1px solid #c5c5c5;
 	box-shadow: 0px 3px 5px #999;
+	z-index: 99;
 }
 
 .tl-text h2.tl-headline, .tl-text h2.tl-headline-title
@@ -323,7 +371,7 @@
 	border-color : #ccc !important;
 }
 
-.tl-timeaxis-major .tl-timeaxis-tick-text
+.tl-timeaxis-major .tl-timeaxis-tick-text 
 {
 	font-family: AvenirNextCondensed_Regular;
 	font-size: 12px;
@@ -363,7 +411,7 @@
 	display: none;
 }
 
-.tl-menubar-button:hover
+.tl-menubar-button:hover 
 {
 	background-color: #333 !important;
 }
@@ -384,4 +432,19 @@
 {
 	background: url(../img/icon_return.png) no-repeat #f1f6f8;
 	background-position: center;
+}
+
+.tl-timenav .tl-timenav-slider .tl-timenav-container-mask .tl-timenav-container
+{
+	z-index: 55;
+}
+
+.tl-timeline .tl-caption, .tl-timeline .tl-credit, .tl-timeline .tl-slidenav-next, .tl-timeline .tl-slidenav-previous
+{
+	top: calc(50% - 20px) !important;
+}
+
+.tl-skinny .tl-slidenav-next .tl-slidenav-content-container, .tl-skinny .tl-slidenav-previous .tl-slidenav-content-container
+{
+	background-size: 100% !important;
 }

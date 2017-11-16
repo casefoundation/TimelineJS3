@@ -13665,7 +13665,7 @@ TL.Timeline = TL.Class.extend({
 
 
 		// Update Display
-		this._updateDisplay(this._timenav.options.height, true, 2000);
+		this._updateDisplay(this._timenav.options.height, true, 20);
 
 	},
 
