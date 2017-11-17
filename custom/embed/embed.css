@@ -1,4 +1,10 @@
 #impact-investing-timeline {
   border: none;
-  height: 850px;
+  height: 700px;
+}
+
+@media (screen and max-width: 686px) {
+  #impact-investing-timeline {
+    height: 900px;
+  }
 }
