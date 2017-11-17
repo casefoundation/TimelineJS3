@@ -3,12 +3,12 @@
   height: 675px;
 }
 
+.post-template-default #content .social-share-box {
+  display: none;
+}
+
 @media screen and (max-width: 686px) {
   #impact-investing-timeline {
     height: 870px;
-  }
-
-  .post-template-default #content .social-share-box {
-    display: none;
   }
 }
