@@ -5,10 +5,10 @@
 
 @media screen and (max-width: 686px) {
   #impact-investing-timeline {
-    height: 1100px;
+    height: 870px;
   }
 
-  #social-share-box .social-share-box {
+  .post-template-default #content .social-share-box {
     display: none;
   }
 }
