@@ -38,8 +38,12 @@ var classCustom 	= function()
 			main.slider_height = 0;
 			// location.reload();
 
-			// setTimeout(main.updateView, 200);
-			// setTimeout(main.updateData, 200);
+			$(".tl-storyslider").css("margin-top", "0px");
+			$(".tl-storyslider").css("top", "0px");
+			$(".tl-storyslider").css("left", "0px");
+
+			setTimeout(main.updateView, 350);
+			setTimeout(main.updateData, 800);
 			// main.updateView();
 			// main.updateData();
 		});
