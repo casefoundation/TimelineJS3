@@ -3,7 +3,7 @@
   height: 700px;
 }
 
-@media (screen and max-width: 686px) {
+@media screen and (max-width: 686px) {
   #impact-investing-timeline {
     height: 1100px;
   }
