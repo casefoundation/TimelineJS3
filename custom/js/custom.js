@@ -77,7 +77,7 @@ var classCustom 	= function()
 						$(curr_obj).css({"background" : rgb});
 						$(curr_obj).data("gcolor", timeline.config.events[i].gcolor);
 						$(curr_obj).data("bgcolor", rgb);
-						
+
 						break;
 					}
 				}
@@ -164,7 +164,7 @@ var classCustom 	= function()
 				bgcolor = main.prevActive.data("bgcolor");
 				main.prevActive.css("background", bgcolor);
 			}
-			
+
 			$(this).parent().css("background", color);
 			main.prevActive = $(this).parent();
 		});
@@ -253,7 +253,7 @@ var classCustom 	= function()
 				else
 				{
 					body_h = height - time_h;
-					
+
 					$(".tl-storyslider").css("cssText", "height: " + body_h + "px !important");
 					$("#group_content").css({"padding-top" : "5px"});
 				}
@@ -266,13 +266,13 @@ var classCustom 	= function()
 
 				$(".tl-timemarker").css("transform", "scaleX(" + scale + ")");
 				$(".tl-timeaxis span").css("transform", "scaleX(" + scale + ")");
-				
+
 			}, 200);
 
 			$(".tl-timenav").css("cssText", "transform: scaleY(" + scale + ")");
 			$(".tl-timenav").css("margin-top", mgn_top + "px");
 			$(".tl-timenav").css("height", nav_h + "px");
-			
+
 			$("#group_section").css({"height": "100px", "top" : "0px", "left" : "0px"});
 		}
 
@@ -309,18 +309,18 @@ var classCustom 	= function()
 		if(index != -1)
 		{
 			color = getGColor(timeline.config.events[index]);
- 
+
  			switch(timeline.config.events[index].group.toUpperCase())
 			{
 				case "Metrics Landscape Takes Shape".toUpperCase() :
 					$("#group_content h3").html("Metrics Landscape Takes Shape");
-					$("#group_content p").html("Standards and metrics are critical to understanding success in the Impact Investing sector. Over the last ten years, significant progress has been made by multiple organizations to identify and put into pracitice quality social and financial performance measures and benchmarks.");
+					$("#group_content p").html("Standards and metrics are critical to understanding success in the impact investing sector. Over the last ten years, significant progress has been made by multiple organizations to identify and put into practice quality social and financial performance measures and benchmarks.");
 					$("#group_content img").attr("src", "img/metrics_landscape.png");
 				break;
 
 				case "Networks Activate".toUpperCase() :
 					$("#group_content h3").html("Networks Activate");
-					$("#group_content p").html("Networks are critical in any movement build. In the impact investing sector, diverse networks catering to investors, fieldbuilders and innovators have helped establish hubs of practice - offering resources to those looking to join the movement. The growth of those networks will be key to attracting more investors and entrepreneurs.");
+					$("#group_content p").html("Networks are critical in any movement build. In the impact investing sector, diverse networks catering to investors, fieldbuilders and innovators have helped establish hubs of practice offering resources to those looking to join the movement. The growth of those networks will be key to attracting more investors and entrepreneurs.");
 					$("#group_content img").attr("src", "img/network_activate.png");
 				break;
 
@@ -332,37 +332,37 @@ var classCustom 	= function()
 
 				case "Foundations Pave the Way".toUpperCase() :
 					$("#group_content h3").html("Foundations Double Down");
-					$("#group_content p").html("Foundations play a key role in catalyzing growth of the Impact Investing movement.They deploy capital, undewrite risk, support innovation and reinforce the legitimacy of the sector and its ability to deliver both a financial and social return. As more foundations enter this field, we expect to see the ecosystem continue to grow.");
+					$("#group_content p").html("Foundations play a key role in catalyzing growth of the Impact Investing movement. They deploy capital, underwrite risk, support innovation and reinforce the legitimacy of the sector and its ability to deliver both a financial and social return. As more foundations enter this field, we expect to see the ecosystem continue to grow.");
 					$("#group_content img").attr("src", "img/foundations_double.png");
 				break;
 
 				case "World Class Investors Come to the Table".toUpperCase() :
 					$("#group_content h3").html("World Class Investors Come to the Table");
-					$("#group_content p").html("One sign of growth in the sector is increased participation of world class investors. As well known venture capitalists, philanthropists and changemakers double down on impact investing and become champions of impact investing opportunities, confidence in the sector increases and attracts more investors.");
+					$("#group_content p").html("One sign of growth in the sector is increased participation of world class investors. As well-known venture capitalists, philanthropists and changemakers double down on impact investing and become champions of impact investing opportunities, confidence in the sector increases and attracts more investors.");
 					$("#group_content img").attr("src", "img/world_class.png");
 				break;
 
 				case "Impact Companies Deliver on Promise".toUpperCase() :
 					$("#group_content h3").html("Impact Companies Deliver on Promise");
-					$("#group_content p").html("Stories of successful impact companies serve as inspiration for new entrepreneurs and proof points for investors. As these enterprises gain access to capital, succeed and are acquired by larger and more traditional corporations, investors and corporations are more likely to engage in Impact Investing.");
+					$("#group_content p").html("Stories of successful impact companies serve as inspiration for new entrepreneurs and proof points for investors. As these enterprises gain access to capital, succeed and are acquired by larger and more traditional corporations, investors and corporations are more likely to engage in impact investing.");
 					$("#group_content img").attr("src", "img/impact_companies.png");
 				break;
 
 				case "Institutions Pick Up the Baton".toUpperCase() :
 					$("#group_content h3").html("Institutions Pick Up the Baton");
-					$("#group_content p").html("The involvement of institutional investors and traditional institutions is critical to crowd in the capital needed for Impact Investing to scale. When major financial and corporate actors add Impact Investments to their portfolios or develop products for the sector, capital inflows increase and the size of the market expands.");
+					$("#group_content p").html("The involvement of institutional investors and traditional institutions is critical to crowd in the capital needed for impact investing to scale. When major financial and corporate actors add impact investments to their portfolios or develop products for the sector, capital inflows increase and the size of the market expands.");
 					$("#group_content img").attr("src", "img/institutions_pickup.png");
 				break;
 
 				case 'Universities Join The Ranks'.toUpperCase() :
 					$("#group_content h3").html("Universities Join The Ranks");
-					$("#group_content p").html("The engagement of universities and academics in Impact Investing has jumpstarted the research, experimentation and thought leadership that anchors the sector and grounds the training of the next generation of impact investors and social entrepreneurs.");
+					$("#group_content p").html("The engagement of universities and academics in impact investing has jumpstarted the research, experimentation and thought leadership that anchors the sector and grounds the training of the next generation of impact investors and social entrepreneurs.");
 					$("#group_content img").attr("src", "img/universities_rank.png");
 				break;
 
 				case "Families Take the Plunge".toUpperCase() :
 					$("#group_content h3").html("Families Take The Plunge");
-					$("#group_content p").html("Trailblazing individuals and families who have been impact investors long before the term \"impact investing\" was coined, bring experience and much needed lessons learned. Their continued activism and sharing of successes and failures encourages others into the field and directs innovation and experimentation that is central to the continued growth of the sector.");
+					$("#group_content p").html("Trailblazing individuals and families who have been impact investors long before the term \"Impact Investing\" was coined, bring experience and much needed lessons learned. Their continued activism and sharing of successes and failures encourages others into the field and directs innovation and experimentation that is central to the continued growth of the sector. ");
 					$("#group_content img").attr("src", "img/familes_take.png");
 				break;
 
@@ -429,7 +429,7 @@ console.log(l_width);
 		{
 			return {r : r, g : g, b : b, a : alpha};
 		}
-		else 
+		else
 		{
 			return {r : r, g : g, b : b};
 		}
@@ -449,7 +449,7 @@ console.log(l_width);
 	main.init();
 }
 
-function getGColor(item) 
+function getGColor(item)
 {
 	switch(item.group.toUpperCase())
 	{
