@@ -8,6 +8,7 @@ var classCustom 	= function()
 	var main 		= this;
 
 	main.prevActive = null;
+	main.body_h		= 1;
 
 	main.init		= function()
 	{
@@ -35,7 +36,7 @@ var classCustom 	= function()
 			// }
 
 			main.slider_height = 0;
-			location.reload();
+			// location.reload();
 
 			// setTimeout(main.updateView, 200);
 			// setTimeout(main.updateData, 200);
@@ -47,6 +48,14 @@ var classCustom 	= function()
 		{
 			main.updateView();
 
+			if(timeline.animator_storyslider)
+			{
+				timeline.animator_storyslider.stop = function()
+				{
+					console.log("stoped");
+				}
+			}
+
 			$(".tl-timemarker").each(function()
 			{
 				var headline = $(this).find(".tl-headline").html();
@@ -55,6 +64,7 @@ var classCustom 	= function()
 				for(var i = 0; i < timeline.config.events.length; i ++)
 				{
 					timeline.config.events[i].gcolor = getGColor(timeline.config.events[i]);
+
 					if(timeline.config.events[i].text.headline == headline)
 					{
 						var rgba = main.hexToRGB(timeline.config.events[i].gcolor, 0.2);
@@ -63,7 +73,7 @@ var classCustom 	= function()
 						$(curr_obj).css({"background" : rgb});
 						$(curr_obj).data("gcolor", timeline.config.events[i].gcolor);
 						$(curr_obj).data("bgcolor", rgb);
-
+						
 						break;
 					}
 				}
@@ -76,7 +86,7 @@ var classCustom 	= function()
 				$(this).parents(".tl-timemarker-content-container").prepend("<div class='color_bar'></div>");
 				$(this).parents(".tl-timemarker-content-container").children(".color_bar").css('background', color);
 			});
-		},500);
+		}, 500);
 
 		$(document).on("click", ".tl-slidenav-next", function()
 		{
@@ -102,7 +112,7 @@ var classCustom 	= function()
 				eventLabel: 'left'
 			});
 
-			main.updateData();
+			main.updateData(1);
 		});
 
 		$(document).on("click", ".tl-timemarker-content", function()
@@ -150,7 +160,7 @@ var classCustom 	= function()
 				bgcolor = main.prevActive.data("bgcolor");
 				main.prevActive.css("background", bgcolor);
 			}
-
+			
 			$(this).parent().css("background", color);
 			main.prevActive = $(this).parent();
 		});
@@ -181,11 +191,18 @@ var classCustom 	= function()
 		}
 		else
 		{
+			if(width < 850)
+			{
+				$("#group_section").addClass("landscape_mini");
+				$("#group_section").css("width", "200px");
+			}
+
 			$("#group_section").removeClass("tl-layout-portrait");
 			$("#group_section").removeClass("portrait_mini");
 		}
 
 		var scale 	= Math.min(width / init_w, height / init_h);
+		var nav_h 	= $(".tl-timenav").height();
 
 		if(scale < 1)
 		{
@@ -203,10 +220,13 @@ var classCustom 	= function()
 			var btn_w 	= 54 * scale;
 			var btn_h 	= 45 * scale;
 
-			var time_h 	= 305 * scale;
+			var time_h 	= nav_h * scale;
+			var time_m 	= 0;
 			var body_h 	= height - time_h;
-			var mgn_top = 305 * (scale - 1) / 2;
+			var mgn_top = nav_h * (scale - 1) / 2;
 			var group_h = 250 * scale;
+
+			main.body_h = body_h;
 
 			$("#group_section #group_content h3").css({"font-size" : l_h3 + "px"});
 			$("#group_section #group_content p").css({"font-size" : l_p + "px"});
@@ -229,29 +249,40 @@ var classCustom 	= function()
 				else
 				{
 					body_h = height - time_h;
+					
 					$(".tl-storyslider").css("cssText", "height: " + body_h + "px !important");
+					$("#group_content").css({"padding-top" : "5px"});
 				}
 
 				$(".tl-menubar-button").css("width", btn_w + "px");
 				$(".tl-menubar-button").css("height", btn_h + "px");
-				$(".tl-menubar").css("margin-top", (mgn_top * -1) + "px");
+				$(".tl-menubar").css("top", (body_h + (time_h - btn_h * 3 - 12) / 2) + "px");
 
+				time_m = (scale - 1) * $(".tl-timemarker").width();
+
+				$(".tl-timemarker").css("transform", "scaleX(" + scale + ")");
+				$(".tl-timeaxis span").css("transform", "scaleX(" + scale + ")");
+				
 			}, 200);
-
 
 			$(".tl-timenav").css("cssText", "transform: scaleY(" + scale + ")");
 			$(".tl-timenav").css("margin-top", mgn_top + "px");
-			$(".tl-timenav-container").css("cssText", "transform: scaleX(" + scale + ")");
-			$("#group_section").css({"height" : body_h + "px", "top" : "0px"});
+			$(".tl-timenav").css("height", nav_h + "px");
+			
+			$("#group_section").css({"height": "100px", "top" : "0px", "left" : "0px"});
 		}
 
 	}
 
-	main.updateData 	= function()
+	main.updateData 	= function(is_first)
 	{
 		var index 	= $(".tl-timemarker-active").index();
 		var color 	= "";
 		var height 	= $(".tl-storyslider").height();
+		var p_left 	= 0;
+
+		if($(".tl-slider-container").length)
+			p_left = $(".tl-slider-container").position().left;
 
 		if(!main.slider_height)
 			main.slider_height = $(".tl-storyslider").height();
@@ -274,8 +305,8 @@ var classCustom 	= function()
 		if(index != -1)
 		{
 			color = getGColor(timeline.config.events[index]);
-
-			switch(timeline.config.events[index].group.toUpperCase())
+ 
+ 			switch(timeline.config.events[index].group.toUpperCase())
 			{
 				case "Metrics Landscape Takes Shape".toUpperCase() :
 					$("#group_content h3").html("Metrics Landscape Takes Shape");
@@ -297,7 +328,7 @@ var classCustom 	= function()
 
 				case "Foundations Pave the Way".toUpperCase() :
 					$("#group_content h3").html("Foundations Double Down");
-					$("#group_content p").html("Foundations play a key role in catalyzing growth of the Impact Investing movement. They deploy capital, undewrite risk, support innovation and reinforce the legitimacy of the sector and its ability to deliver both a financial and social return. As more foundations enter this field, we expect to see the ecosystem continue to grow.");
+					$("#group_content p").html("Foundations play a key role in catalyzing growth of the Impact Investing movement.They deploy capital, undewrite risk, support innovation and reinforce the legitimacy of the sector and its ability to deliver both a financial and social return. As more foundations enter this field, we expect to see the ecosystem continue to grow.");
 					$("#group_content img").attr("src", "img/foundations_double.png");
 				break;
 
@@ -315,7 +346,7 @@ var classCustom 	= function()
 
 				case "Institutions Pick Up the Baton".toUpperCase() :
 					$("#group_content h3").html("Institutions Pick Up the Baton");
-					$("#group_content p").html("The involvement of institutional investors and traditional institutions is critical to crowd in the capital needed for impact investing to scale. When major financial and corporate actors add Impact Investments to their portfolios or develop products for the sector, capital inflows increase and the size of the market expands.");
+					$("#group_content p").html("The involvement of institutional investors and traditional institutions is critical to crowd in the capital needed for Impact Investing to scale. When major financial and corporate actors add Impact Investments to their portfolios or develop products for the sector, capital inflows increase and the size of the market expands.");
 					$("#group_content img").attr("src", "img/institutions_pickup.png");
 				break;
 
@@ -339,7 +370,7 @@ var classCustom 	= function()
 			}
 		}
 
-		if($(".tl-slidenav-previous").css("display") == "none")
+		if(index == -1)
 		{
 			$("#group_section").css("display", "none");
 
@@ -357,15 +388,18 @@ var classCustom 	= function()
 		}
 		else
 		{
-			var width 	= $(window).width() - 280;
+			var l_width = $("#group_section").width();
+			var width 	= $(window).width() - l_width;
 			var mgn_t 	= $("#group_section").height();
+
+console.log(l_width);
 
 			$("#group_section").css("display", "block");
 			$("#group_section").animate({"backgroundColor" : color});
 
 			if(window.innerHeight > window.innerWidth)
 			{
-				height 	= main.slider_height - mgn_t;
+				height 	= main.body_h - mgn_t;
 
 				if($(".tl-storyslider").length)
 				{
@@ -376,7 +410,7 @@ var classCustom 	= function()
 			else
 			{
 				$("#group_section").css("height", height + "px");
-				$(".tl-storyslider").animate({"left" : "280px", "width" : width});
+				$(".tl-storyslider").animate({"left" : l_width + "px", "width" : width});
 			}
 		}
 	}
@@ -391,7 +425,7 @@ var classCustom 	= function()
 		{
 			return {r : r, g : g, b : b, a : alpha};
 		}
-		else
+		else 
 		{
 			return {r : r, g : g, b : b};
 		}
@@ -411,8 +445,8 @@ var classCustom 	= function()
 	main.init();
 }
 
-
-function getGColor(item) {
+function getGColor(item) 
+{
 	switch(item.group.toUpperCase())
 	{
 		case "Metrics Landscape Takes Shape".toUpperCase() :

@@ -75,13 +75,18 @@
 {
 	width: 280px;
 	height: 500px;
-	z-index: 99;
 	top: 1px;
 	left: 0px;
 	display: none;
 	position: absolute;
 	overflow: hidden;
 	background-color: #FFFFFF;
+	z-index: 999;
+}
+
+#group_section.landscape_mini
+{
+	width: 200px;
 }
 
 #group_section.tl-layout-portrait.portrait_mini
@@ -133,7 +138,7 @@
 #group_section #group_content
 {
 	margin-top: 100px;
-	width: 230px;
+	width: calc(100% - 50px);
 	margin-left: 25px;
 	border-top: 1px solid rgba(255, 255, 255, 0.3);
 	border-style: ridge;
@@ -184,7 +189,8 @@
 	/*z-index: 0;*/
 	height: 24px;
 	width: 3000px;
-	margin-left: -12px !important;
+	margin-left: -12px;
+	transform-origin: top left;
 }
 
 .tl-timemarker-content-container
@@ -253,7 +259,7 @@
 {
 	border: 1px solid #c5c5c5;
 	box-shadow: 0px 3px 5px #999;
-	z-index: 99;
+	z-index: 99999;
 }
 
 .tl-text h2.tl-headline, .tl-text h2.tl-headline-title
